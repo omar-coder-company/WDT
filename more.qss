@@ -1,0 +1,120 @@
+/* General background and font */
+QWidget {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+}
+
+/* QLabel - Titles and headers */
+QLabel {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* QPushButton base style */
+QPushButton {
+    background-color: #007acc;
+    color: white;
+    border-radius: 14px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 13pt;
+}
+
+/* QPushButton hover and pressed states */
+QPushButton:hover {
+    background-color: #005f9e;
+}
+
+QPushButton:pressed {
+    background-color: #003f6b;
+}
+
+QPushButton:disabled {
+    background-color: #444444;
+    color: #888888;
+}
+
+/* QTextEdit - log output */
+QTextEdit {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Consolas, monospace;
+    font-size: 11pt;
+    color: #e0e0e0;
+    selection-background-color: #005f9e;
+    selection-color: #ffffff;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #2a2a2a;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #007acc;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #005f9e;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+/* Tooltips */
+QToolTip {
+    color: #ffffff;
+    background-color: #007acc;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10pt;
+}
+
+/* QGraphicsDropShadowEffect workaround */
+/* Note: Shadows are applied programmatically, not in QSS */
+
+/* QHBoxLayout spacing workaround */
+/* لا تأثير مباشر في QSS */
+
+/* Checkbox (لو عندك) */
+QCheckBox {
+    color: #e0e0e0;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #007acc;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #444444;
+    border-radius: 4px;
+}
+
+/* QLineEdit (لو عندك) */
+QLineEdit {
+    background-color: #1e1e1e;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #e0e0e0;
+}
+
+QLineEdit:focus {
+    border-color: #007acc;
+}

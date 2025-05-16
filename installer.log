@@ -1,0 +1,16 @@
+Chocolatey is already installed.
+Visual Studio Code is already installed.
+Git is already installed.
+Node.js is already installed.
+Python is already installed.
+OpenJDK is already installed.
+7-Zip is already installed.
+curl is already installed.
+OpenSSL is already installed.
+Installing Docker Desktop...
+Failed to install Docker Desktop.
+Installing Postman separately...
+Postman installed successfully.
+Installing/upgrading Python packages...
+DEPRECATION: Loading egg at c:\python313\lib\site-packages\vboxapi-1.0-py3.13.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at https://github.com/pypa/pip/issues/12330
+Python packages installed/upgraded successfully.
